@@ -4,6 +4,64 @@
 # should build pages for, and indicates metadata such as tags, creation date and
 # authors for each page.
 
+- title: EvalsAPI Use-case - Detecting prompt regressions
+  path: examples/evaluation/use-cases/regression.ipynb
+  date: 2025-04-08
+  authors:
+    - josiah-openai
+  tags:
+    - evalsapi
+    - completions
+
+- title: EvalsAPI Use-case - Bulk model and prompt experimentation
+  path: examples/evaluation/use-cases/bulk-experimentation.ipynb
+  date: 2025-04-08
+  authors:
+    - josiah-openai
+  tags:
+    - evalsapi
+    - completions
+
+- title: EvalsAPI Use-case - Monitoring stored completions
+  path: examples/evaluation/use-cases/completion-monitoring.ipynb
+  date: 2025-04-08
+  authors:
+    - josiah-openai
+  tags:
+    - evalsapi
+    - completions
+
+- title: Multi-Tool Orchestration with RAG approach using OpenAI's Responses API
+  path: examples/responses_api/responses_api_tool_orchestration.ipynb
+  date: 2025-03-28
+  authors:
+    - shikhar-cyber
+  tags:
+    - responses
+    - functions
+    - pinecone
+    - web-search
+
+- title: Automating Dispute Management with Agents SDK and Stripe API
+  path: examples/agents_sdk/dispute_agent.ipynb
+  date: 2025-03-17
+  authors:
+    - danbell-openai
+  tags:
+    - responses
+    - agents-sdk
+    - functions
+
+- title: Web Search and States with Responses API
+  path: examples/responses_api/responses_example.ipynb
+  date: 2025-03-11
+  authors:
+    - billchen-openai
+  tags:
+    - responses
+    - web-search
+    - functions
+
 - title: Using logprobs
   path: examples/Using_logprobs.ipynb
   date: 2023-12-20
@@ -219,6 +277,7 @@
   date: 2022-10-20
   authors:
     - colin-openai
+    - vishnu-oai
   tags:
     - embeddings
     - completions
@@ -632,9 +691,10 @@
 
 - title: Robust question answering with Chroma and OpenAI
   path: examples/vector_databases/chroma/hyde-with-chroma-and-openai.ipynb
-  date: 2023-04-06
+  date: 2025-04-23
   authors:
     - atroyn
+    - brandonbaker-openai
   tags:
     - embeddings
     - completions
@@ -1113,13 +1173,14 @@
     - functions
     - fine-tuning
 
-- title: Processing and narrating a video with GPT's visual capabilities and the TTS API
+- title: Processing and narrating a video with GPT-4.1-mini's visual capabilities and GPT-4o TTS API
   path: examples/GPT_with_vision_for_video_understanding.ipynb
-  date: 2023-11-06
+  date: 2025-04-22
   authors:
     - cathykc
+    - rzhao
   tags:
-    - completions
+    - responses
     - vision
     - speech
 
@@ -1229,9 +1290,10 @@
 
 - title: How to parse PDF docs for RAG
   path: examples/Parse_PDF_docs_for_RAG.ipynb
-  date: 2024-02-28
+  date: 2024-09-29
   authors:
     - katiagg
+    - MW-OAI
   tags:
     - vision
     - embeddings
@@ -1263,9 +1325,10 @@
 
 - title: Using GPT4 Vision with Function Calling
   path: examples/multimodal/Using_GPT4_Vision_With_Function_Calling.ipynb
-  date: 2024-04-09
+  date: 2024-12-13
   authors:
     - shyamal-anadkat
+    - MW-OAI
   tags:
     - chat
     - vision
@@ -1670,7 +1733,7 @@
   tags:
     - completions
     - reasoning
-  
+
 - title: GPT Actions library - GitHub
   path: examples/chatgpt/gpt_actions_library/gpt_action_github.md
   date: 2024-10-23
@@ -1719,9 +1782,9 @@
   tags:
     - gpt-actions-library
     - embeddings
-    - chatgpt 
+    - chatgpt
     - chatgpt-and-api
-    
+
 - title: Optimizing Retrieval-Augmented Generation using GPT-4o Vision Modality
   path: examples/vector_databases/pinecone/Using_vision_modality_for_RAG_with_Pinecone.ipynb
   date: 2024-11-12
@@ -1751,8 +1814,8 @@
     - gpt-actions-library
     - chatgpt
     - chatgpt-communication
-    
-- title: GPT Actions library - Tray.ai APIM 
+
+- title: GPT Actions library - Tray.ai APIM
   path: examples/chatgpt/gpt_actions_library/gpt_action_trayai_apim.md
   date: 2024-11-26
   authors:
@@ -1785,6 +1848,7 @@
   date: 2025-01-14
   authors:
     - MW-OAI
+    - thli-openai
   tags:
     - usage-api
     - cost-api
@@ -1798,10 +1862,77 @@
     - usage-api
     - cost-api
 
-- title: Build Your Own Code Interpreter - Empowering LLM Agents with Dynamic Tool Calling
+- title: Build Your Own Code Interpreter - Dynamic Tool Generation and Execution With o3-mini
   path: examples/object_oriented_agentic_approach/Secure_code_interpreter_tool_for_LLM_agents.ipynb
-  date: 2025-01-26
+  date: 2025-02-03
   authors:
     - msingh-openai
   tags:
     - completions
+
+- title: Doing RAG on PDFs using File Search in the Responses API
+  path: examples/File_Search_Responses.ipynb
+  date: 2025-03-11
+  authors:
+    - pap-openai
+  tags:
+    - responses
+    - functions
+
+- title: Building a Voice Assistant with the Agents SDK
+  path: examples/agents_sdk/app_assistant_voice_agents.ipynb
+  date: 2025-03-27
+  authors:
+    - rupert-openai
+  tags:
+    - audio
+    - responses
+    - speech
+
+- title: Multi-Language One-Way Translation with the Realtime API
+  path: examples/voice_solutions/one_way_translation_using_realtime_api.mdx
+  date: 2025-03-24
+  authors:
+    - erikakettleson-openai
+  tags:
+    - audio
+    - speech
+
+- title: GPT Actions library - Salesforce & Gong
+  path: examples/chatgpt/gpt_actions_library/gpt_action_salesforce_gong.md
+  date: 2025-04-07
+  authors:
+    - girishd
+  tags:
+    - chatgpt
+    - gpt-actions-library
+    - chatgpt-productivity
+
+- title: GPT-4.1 Prompting Guide
+  path: examples/gpt4-1_prompting_guide.ipynb
+  date: 2025-04-14
+  authors:
+    - nm-openai
+    - julian-openai
+  tags:
+    - responses
+    - api
+
+- title: Generate images with GPT Image
+  path: examples/Generate_Images_With_GPT_Image.ipynb
+  date: 2025-04-23
+  authors:
+    - katiagg
+  tags:
+    - images
+
+- title: Handling Function Calls with Reasoning Models
+  path: examples/reasoning_function_calls.ipynb
+  date: 2025-04-25
+  authors:
+    - tompakeman-oai
+  tags:
+    - reasoning
+    - functions
+    - responses
+    - api
